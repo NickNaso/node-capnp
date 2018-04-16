@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+# remove VSCode meta information
+.vscode
+
+# remove IntelliJ IDEA meta information
+.idea
