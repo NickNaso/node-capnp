@@ -15,3 +15,13 @@
  * Contributors - initial API implementation:
  * Nicola Del Gobbo <nicoladelgobbo@gmail.com>
  ******************************************************************************/
+
+#include <napi.h>
+
+
+Napi::Object Init(Napi::Env env, Napi::Object exports) {
+    exports.Set(Napi::String::New(env, "VERSION"), Napi::String::New(env, "0.0.1"));
+    return exports;
+};
+
+NODE_API_MODULE(NODE_GYP_MODULE_NAME, Init)

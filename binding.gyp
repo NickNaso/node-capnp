@@ -1,9 +1,9 @@
 {
   "targets": [
     {
-      "target_name": "wdt-native",
+      "target_name": "wdtnative",
       "sources": [
-        ""
+        "src/binding.cc"
       ],
       'cflags!': [ '-fno-exceptions' ],
       'cflags_cc!': [ '-fno-exceptions' ],
