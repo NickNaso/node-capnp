@@ -1,17 +1,14 @@
 {
-  "name": "node-wdt",
+  "name": "node-capnp",
   "version": "0.0.1",
-  "description": "Warp speed Data Transfer (WDT) is module aiming to transfer data between 2 systems as fast as possible over multiple TCP paths.",
+  "description": "Cap'n Proto bindings for Node.js",
   "main": "index.js",
   "keywords": [
-    "data",
-    "transfer",
-    "TCP"
+    "capnproto",
+    "capnp"
   ],
   "scripts": {
-    "test": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
-    "test-travis": "node node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json",
-    "test-appveyor": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json"
+    "test": "node ./node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=__test__/jasmine.json"
   },
   "engines": {
     "node": ">= 6.0.0"

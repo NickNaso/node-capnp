@@ -16,4 +16,4 @@
  * Nicola Del Gobbo <nicoladelgobbo@gmail.com>
  ******************************************************************************/
 
-module.exports = require('./lib/wdt')
+module.exports = require('./lib/capnp')

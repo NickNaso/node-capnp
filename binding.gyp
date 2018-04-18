@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "wdtnative",
+      "target_name": "capnp",
       "sources": [
         "src/binding.cc"
       ],
@@ -10,7 +10,7 @@
       'include_dirs': ["<!@(node -p \"require('node-addon-api').include\")"],
       'dependencies': [
           "<!(node -p \"require('node-addon-api').gyp\")",
-          "src/deps/wdt/wdt.gyp:wdt"
+          #"src/deps/capnp/capnp.gyp:wdt"
       ],
       'conditions': [
         ['OS=="win"', {
